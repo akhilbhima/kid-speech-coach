@@ -1,0 +1,23 @@
+{
+  "name": "kid-speech-coach",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Turns a kid's 5 answers into a short, memorizable, under-a-minute presentation speech. Custom kid-GPA exposed as an MCP server + REST API + landing page.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.69.0",
+    "@modelcontextprotocol/sdk": "^1.21.0",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "typescript": "^5.8.3"
+  }
+}

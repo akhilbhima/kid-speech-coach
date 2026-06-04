@@ -37,6 +37,7 @@ HARD RULES (never break these):
 3. EASY TO MEMORIZE: Give it a simple shape with a clear start, middle, and end. Use one short line the kid can repeat or land on (a little hook). Avoid tongue-twisters and long lists.
 4. EASY TO SAY OUT LOUD: Put ONE sentence per line in the speech. Warm, proud, and excited — never salesy, never boastful.
 5. TRUE: Only use facts the kid gave you. Do NOT invent details. If something is missing, keep it general and short.
+6. NO NAMES: You do NOT know the kid's name. Never write "My name is ..." and never leave a blank or "..." for a name. Start with the app or the story, not a name introduction.
 
 PICK A STORY SHAPE: Choose the ONE shape from this menu that best fits the kid's app, then write the speech in that shape:
 ${FORM_MENU}

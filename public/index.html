@@ -4,7 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Make My Speech — AR3STOTLE</title>
-<link rel="icon" href="ar3stotle-logo.svg" />
+<link rel="icon" href="/speech-coach/ar3stotle-logo.svg" />
 <!-- AR3STOTLE house fonts (Typekit serves to authorized domains; Playfair Display is the sanctioned serif fallback). -->
 <link rel="stylesheet" href="https://use.typekit.net/zra4rwi.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -131,7 +131,7 @@
 
   <!-- WELCOME -->
   <section id="screen-welcome" class="screen card active">
-    <img class="hero-logo" src="ar3stotle-logo.svg" alt="AR3STOTLE mark" />
+    <img class="hero-logo" src="/speech-coach/ar3stotle-logo.svg" alt="AR3STOTLE mark" />
     <h1>Let's make<br>your speech.</h1>
     <p class="lead">Answer up to <b>5 quick questions</b> about the app you built. You can skip any of them. We'll write you a short speech to say out loud — in under a minute.</p>
     <button id="startBtn" class="btn-primary">Start →</button>
@@ -199,7 +199,7 @@
 
   <!-- POWERED BY -->
   <div class="powered">
-    <img src="ar3stotle-logo.svg" alt="" aria-hidden="true" />
+    <img src="/speech-coach/ar3stotle-logo.svg" alt="" aria-hidden="true" />
     <span>Powered by <b>AR3STOTLE</b></span>
   </div>
 
@@ -284,7 +284,7 @@
 
   function generate() {
     show("loading");
-    fetch("/api/generate", {
+    fetch("/speech-coach/api/generate", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ answers: answersObject() })

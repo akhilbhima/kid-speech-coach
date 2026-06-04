@@ -4,11 +4,5 @@
     "api/*.ts": {
       "maxDuration": 30
     }
-  },
-  "rewrites": [
-    { "source": "/speech-coach/api/:path*", "destination": "/api/:path*" },
-    { "source": "/speech-coach", "destination": "/index.html" },
-    { "source": "/speech-coach/", "destination": "/index.html" },
-    { "source": "/speech-coach/:path*", "destination": "/:path*" }
-  ]
+  }
 }
